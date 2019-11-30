@@ -379,7 +379,7 @@ parameters:
   - description: Postgres Persistent volume claim size
     displayName: Postgres Persistent volume claim size
     name: POSTGRES_PERSISTENT_VOLUME_CLAIM_SIZE
-    value: 5Gi
+    value: 2Gi
     required: true
   - description: Postgres Container Memory size limit
     displayName: Postgres Container Memory size limit
@@ -401,7 +401,7 @@ parameters:
     description: The persistent storage volume for SonarQube to use for plugins/config/logs/etc...
     displayName: SonarQube Storage Space Size
     required: true
-    value: 5Gi
+    value: 2Gi
   - name: FORCE_AUTHENTICATION
     displayName: Force authentication
     value: "false"
